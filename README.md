@@ -5,6 +5,7 @@ A working prototype of an AI + IoT civic operations platform. It detects issues 
 ## Project Links
 
 - GitHub: https://github.com/VedantPandey0712-coder/NagarKonGuard
+- Live demo: https://nagar-kon-guard-6m2m-ehn9sfncq-vedantpandey0712-coders-projects.vercel.app
 - Local dashboard: http://localhost:3000
 
 ## Run
@@ -23,6 +24,20 @@ Open http://localhost:3000.
 ```powershell
 npm test
 ```
+
+## Deploy to Vercel
+
+From the `main` directory, install the Vercel CLI and deploy:
+
+```powershell
+npm install -g vercel
+vercel login
+vercel
+```
+
+When prompted, use the current directory as the project root, keep the detected defaults, and run `vercel --prod` for the production deployment. The included `vercel.json` serves `frontend/` as static files and routes `/api/*` to the existing Node backend.
+
+The API currently stores reports in memory. That works for a demo, but data can reset when Vercel creates a new serverless instance. Use a hosted database before relying on this for production data.
 
 ## Project map
 
