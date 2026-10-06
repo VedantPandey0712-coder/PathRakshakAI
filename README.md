@@ -5,7 +5,7 @@ A working prototype of an AI + IoT civic operations platform. It detects issues 
 ## Project Links
 
 - GitHub: https://github.com/VedantPandey0712-coder/NagarKonGuard
-- Live demo: https://nagar-kon-guard.vercel.app
+- Live demo: https://nagar-kon-guard-6m2m.vercel.app
 - Local dashboard: http://localhost:3000
 
 ## Run
